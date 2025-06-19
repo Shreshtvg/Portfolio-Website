@@ -151,7 +151,12 @@ export default function App() {
           </div>
 
           <div className="social-item">
-            <a href="https://drive.google.com/file/d/1rvJBue1JgI10ngjfmIDlyXPil0XgEUC7/view" target="_blank" rel="noreferrer" title="Resume 💼">
+            <a
+              href="https://drive.google.com/file/d/1rvJBue1JgI10ngjfmIDlyXPil0XgEUC7/view"
+              target="_blank"
+              rel="noreferrer"
+              title="Resume 💼"
+            >
               <img
                 src="https://img.icons8.com/ios-filled/50/ffffff/resume.png"
                 alt="Resume"
@@ -184,6 +189,7 @@ export default function App() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.2, duration: 0.6 }}
             viewport={{ once: true }}
+            style={{ flexDirection: "column" }}
           >
             <div className="project-media">
               <img
@@ -194,7 +200,7 @@ export default function App() {
             </div>
 
             <div className="project-info">
-              <h3 className="project-title">{project.title}</h3>
+              <h3 className="project-title" style={{ wordBreak: "break-word" }}>{project.title}</h3>
               <p className="project-description">{project.description}</p>
               <p className="project-tech">{project.techStack}</p>
               <a
