@@ -1,8 +1,6 @@
-## Available Scripts
+## Portfolio Website
 
-In the project directory, you can run:
+Hi! I am Shresht V G
+A Full Stack developer based out of Bangalore
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can View my portfolio through this link
