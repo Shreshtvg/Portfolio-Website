@@ -289,3 +289,65 @@ body {
   font-size: 0.9rem;
   opacity: 0.7;
 }
+/* ------------------- MEDIA QUERIES ------------------- */
+@media (max-width: 768px) {
+  .intro-section {
+    flex-direction: column;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+
+  .intro-left h1 {
+    font-size: 2.2rem;
+  }
+
+  .gradient-text {
+    font-size: 3rem;
+  }
+
+  .emoji-container {
+    font-size: 8rem;
+    padding-left: 0;
+  }
+
+  .about-section p,
+  .social-links,
+  .projects-section,
+  .skills-section h2 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .projects-section {
+    padding: 2rem 1rem;
+  }
+
+  .project-card-custom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-media img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .skills-section {
+    padding: 2rem 1rem;
+  }
+
+  .skills-section h2 {
+    padding-left: 0;
+  }
+
+  .skills-slider {
+    padding: 2rem 0;
+  }
+}
