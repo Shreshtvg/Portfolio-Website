@@ -152,7 +152,7 @@ export default function App() {
 
           <div className="social-item">
             <a
-              href="https://drive.google.com/file/d/1rvJBue1JgI10ngjfmIDlyXPil0XgEUC7/view"
+              href="https://drive.google.com/file/d/1rvJBue1JgI10ngjfmIDlyXPil0XgEUC7/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
               title="Resume 💼"
