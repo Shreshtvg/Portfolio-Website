@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import "./styles/global.css"; // Global styles
 
 export default function App() {
-  const [repos, setRepos] = useState([]);
+  const [setRepos] = useState([]);
 
   useEffect(() => {
     axios
@@ -27,6 +27,15 @@ export default function App() {
     },
     {
       id: 2,
+      title: "Github Issue Analyser",
+      description:
+        "An AI-powered GitHub issue analyzer that summarizes and classifies issues using LLMs via a Streamlit frontend and FastAPI backend",
+      techStack: "LLM, Streamlit, FastAPI",
+      image: "/images/pic3.png",
+      link: "https://github.com/Shreshtvg/Github_Issue_Analyser/",
+    },
+    {
+      id: 3,
       title: "ClearScan",
       description:
         "A Document scanning system that uses OCR to extract personal details from pdfs and images",
@@ -177,8 +186,8 @@ export default function App() {
         viewport={{ once: true }}
       >
         <h2 className="projects-heading">
-          And Yes,
-          <br />I do turn ideas into products
+          Yes,
+          <br />I do turn Ideas into Products
         </h2>
 
         {[...projects].map((project, index) => (
