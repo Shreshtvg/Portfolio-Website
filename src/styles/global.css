@@ -68,11 +68,13 @@ body {
 .view-projects {
   margin-top: 2rem;
   font-weight: 600;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 2px;
   padding-bottom: 0.2rem;
   padding-left: 0.5rem;
   display: inline-block;
   text-decoration: none;
+  color: whitesmoke;
 }
 
 .intro-right {
@@ -160,23 +162,30 @@ body {
 .project-card-custom {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* center horizontally */
   background-color: #1c1c2e;
   padding: 2rem;
   border-radius: 1.5rem;
   margin-bottom: 2rem;
   gap: 2rem;
+  flex-wrap: wrap; /* handle smaller screens better */
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.project-info {
+  flex: 1;
+  max-width:600px; /* ✅ Control the text box width */
+  text-align: center;
+}
+
 
 .project-media img {
   width: 300px;
   height: auto;
   border-radius: 1rem;
   object-fit: cover;
-}
-
-.project-info {
-  flex: 1;
 }
 
 .project-title {
@@ -334,11 +343,17 @@ body {
     text-align: center;
   }
 
+  .project-info {
+  max-width: 100%;
+  text-align: center;
+}
+
+
   .project-media img {
     width: 100%;
     max-width: 300px;
   }
-
+  
   .skills-section {
     padding: 2rem 1rem;
   }
