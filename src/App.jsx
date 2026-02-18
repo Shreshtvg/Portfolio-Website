@@ -18,18 +18,18 @@ export default function App() {
   const projects = [
     {
       id: 1,
-      title: "Hospital-Front-Desk-System",
+      title: "Hospital Front Desk System",
       description:
-        "A comprehensive hospital management system for managing patient records, appointments and Doctor Profiles",
+        "Full-stack hospital management system for patient records, appointments, and doctor profiles with a streamlined front-desk workflow.",
       techStack: "React, Node.js, Express, MySQL",
       image: "/images/pic1.webp",
       link: "https://hospital-front-desk-system.vercel.app/",
     },
     {
       id: 2,
-      title: "Github Issue Analyser",
+      title: "GitHub Issue Analyser",
       description:
-        "An AI-powered GitHub issue analyzer that summarizes and classifies issues using LLMs via a Streamlit frontend and FastAPI backend",
+        "AI-powered tool that uses LLMs to summarize and classify GitHub issues. Streamlit UI with a FastAPI backend.",
       techStack: "LLM, Streamlit, FastAPI",
       image: "/images/pic3.png",
       link: "https://github.com/Shreshtvg/Github_Issue_Analyser/",
@@ -38,8 +38,8 @@ export default function App() {
       id: 3,
       title: "ClearScan",
       description:
-        "A Document scanning system that uses OCR to extract personal details from pdfs and images",
-      techStack: "React, Node.js, Express, SqLite, Tesseract.js",
+        "Document scanner that uses OCR to extract personal details from PDFs and images for faster data entry.",
+      techStack: "React, Node.js, Express, SQLite, Tesseract.js",
       image: "/images/pic2.png",
       link: "https://clearscanproject.vercel.app/",
     },
@@ -108,10 +108,8 @@ export default function App() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <p>
-          Hi! I’m a Shresht V G, a full stack developer passionate about
-          building products, web apps, and backend systems. I love turning ideas
-          into functional applications.
+        <p className="about-description">
+          <strong>Hi, I'm Shresht V G.</strong> I build web apps and backend systems from zero to launch. <span className="about-highlight">Clean code</span>, <span className="about-highlight">scalable architecture</span>, and <span className="about-highlight">ideas that ship</span>.
         </p>
       </motion.section>
 
@@ -185,48 +183,37 @@ export default function App() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <h2 className="projects-heading">
-          Yes,
-          <br />I do turn Ideas into Products
-        </h2>
+        <h2 className="projects-heading">My Work</h2>
 
-        {[...projects].map((project, index) => (
-          <motion.div
-            key={project.id}
-            className="project-card-custom"
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.2, duration: 0.6 }}
-            viewport={{ once: true }}
-            style={{ flexDirection: "column" }}
-          >
-            <div className="project-media">
-              <img
-                src={project.image}
-                alt={project.title}
-                className="project-image"
-              />
-            </div>
-
-            <div className="project-info">
-              <h3 className="project-title" style={{ wordBreak: "break-word" }}>{project.title}</h3>
-              <p className="project-description">{project.description}</p>
-              <p className="project-tech">{project.techStack}</p>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noreferrer"
-                className="project-link"
-              >
-                View Project
-              </a>
-            </div>
-
-            <div className="project-number">
-              {String(index + 1).padStart(2, "0")}
-            </div>
-          </motion.div>
-        ))}
+        <div className="projects-grid">
+          {projects.map((project, index) => (
+            <motion.a
+              key={project.id}
+              href={project.link}
+              target="_blank"
+              rel="noreferrer"
+              className="project-card"
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.1, duration: 0.5 }}
+              viewport={{ once: true }}
+              whileHover={{ y: -6 }}
+            >
+              <div className="project-image-wrap">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="project-image"
+                />
+              </div>
+              <div className="project-content">
+                <h3 className="project-title">{project.title}</h3>
+                <p className="project-description">{project.description}</p>
+                <span className="project-tech">{project.techStack}</span>
+              </div>
+            </motion.a>
+          ))}
+        </div>
       </motion.section>
 
       {/* Skills Section */}
