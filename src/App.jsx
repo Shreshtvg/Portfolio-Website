@@ -4,16 +4,16 @@ import { motion } from "framer-motion";
 import "./styles/global.css"; // Global styles
 
 export default function App() {
-  const [repos, setRepos] = useState([]);
+  // const [setRepos] = useState([]);
 
-  useEffect(() => {
-    axios
-      .get(
-        `https://api.github.com/users/${process.env.REACT_APP_GITHUB_USERNAME}/repos?sort=updated`
-      )
-      .then((res) => setRepos(res.data.slice(0, 3)))
-      .catch((err) => console.error(err));
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get(
+  //       `https://api.github.com/users/${process.env.REACT_APP_GITHUB_USERNAME}/repos?sort=updated`
+  //     )
+  //     .then((res) => setRepos(res.data.slice(0, 3)))
+  //     .catch((err) => console.error(err));
+  // }, []);
 
   const projects = [
     {
