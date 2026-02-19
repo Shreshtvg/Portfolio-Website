@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import "./styles/global.css"; // Global styles
 
 export default function App() {
-  const [setRepos] = useState([]);
+  const [repos, setRepos] = useState([]);
 
   useEffect(() => {
     axios
