@@ -40,7 +40,7 @@ export const portfolioData = {
       "Software Engineer",
       "Problem Solver"
     ],
-    avatar: "/src/assets/images/shresht_avatar_1779794430571.png",
+    avatar: "/images/shresht_avatar_1779794430571.jpg",
     socials: {
       github: "https://github.com/shreshtvg",
       linkedin: "https://www.linkedin.com/in/shresht-v-g-506465241/",
@@ -107,7 +107,7 @@ export const portfolioData = {
         "Built and consumed 15+ RESTful API endpoints for appointment lifecycle management, doctor scheduling, queue operations, and account management, improving operational efficiency through automated workflows and centralized data management."
       ],
       stack: ["Next.js", "FastAPI", "SQLAlchemy", "SQLite", "JWT"],
-      image: "/src/assets/images/hospital_frontdesk_1779801230297.png",
+      image: "/images/hospital_frontdesk_1779801230297.png",
       github: "https://github.com/Shreshtvg/Hospital-FrontDesk-System",
       live: "https://hospital-front-desk-system.vercel.app/"
     },
@@ -121,7 +121,7 @@ export const portfolioData = {
         "Enterprise-Grade Security & UX: Features robust JWT authentication with 1-hour session expirations, automatic inactivity timeouts, and rich messaging capabilities including WhatsApp-style replies, multipart image uploads, and secure multi-select bulk actions."
       ],
       stack: ["Reactjs", "Go(Fiber)", "PostgreSql", "Redis", "WebSockets"],
-      image: "/src/assets/images/project_convo_discord_1779797861085.png",
+      image: "/images/project_convo_discord_1779797861085.png",
       github: "https://github.com/Shreshtvg/TheConvoChat",
       live: "https://github.com/Shreshtvg/TheConvoChat"
     },
@@ -134,7 +134,7 @@ export const portfolioData = {
         "Engineered RESTful APIs and a responsive frontend to manage student records, attendance, and courses, following clean architecture and optimized database interactions."
       ],
       stack: ["Java", "Spring Boot", "Angular"],
-      image: "/src/assets/images/project_school_white_1779797880437.png",
+      image: "/images/project_school_white_1779797880437.png",
       github: "https://github.com/Shreshtvg/SchoolManagementSystem",
       live: "https://github.com/Shreshtvg/SchoolManagementSystem"
     },
@@ -148,7 +148,7 @@ export const portfolioData = {
         "Optimized application performance using model caching and efficient vector similarity search for low-latency document querying."
       ],
       stack: ["Python", "Streamlit", "FAISS"],
-      image: "/src/assets/images/project_github_1779794467857.png",
+      image: "/images/project_github_1779794467857.png",
       github: "https://github.com/Shreshtvg/PDF-Chat-Assistant-RAG-Groq-FAISS",
       live: "https://ragpdfchatassistant.streamlit.app/"
     }
