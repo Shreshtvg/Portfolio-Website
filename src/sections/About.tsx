@@ -42,7 +42,7 @@ export default function About() {
 
           <div className="lg:col-span-5 relative">
             {/* Embedded Interactive Code Mockup */}
-            <div className="w-full bg-[#111827] border border-white/5 rounded-2xl overflow-hidden shadow-2xl -mt-25">
+            <div className="w-full bg-[#111827] border border-white/5 rounded-2xl overflow-hidden shadow-2xl lg:-translate-y-24">
               <div className="bg-[#0B1220] px-4 py-3 border-b border-white/5 flex items-center justify-between">
                 <div className="flex items-center gap-1.5">
                   <span className="w-3 h-3 rounded-full bg-red-500/80" />
