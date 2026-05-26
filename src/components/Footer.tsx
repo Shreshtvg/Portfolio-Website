@@ -70,8 +70,8 @@ export default function Footer() {
           </div>
 
           {/* Quick link tags */}
-          <div className="md:col-span-4 flex flex-col items-start text-left">
-            <span className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-4 font-bold">Quick Navigation</span>
+          <div className="md:col-span-4 flex flex-col items-start text-left ml-27">
+            <span className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-4 font-bold ml-2.5">Quick Navigation</span>
             <div className="grid grid-cols-2 gap-x-8 gap-y-2">
               {quickLinks.map((link) => (
                 <button
@@ -86,8 +86,8 @@ export default function Footer() {
           </div>
 
           {/* CV & social redirect columns */}
-          <div className="md:col-span-4 flex flex-col items-start text-left">
-            <span className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-4 font-bold">Network References</span>
+          <div className="md:col-span-4 flex flex-col items-start text-left ml-35">
+            <span className="font-mono text-[10px] text-white/40 uppercase tracking-widest mb-4 font-bold ml-2">Network References</span>
             <div className="flex gap-3 mb-4">
               <a
                 href={personal.socials.github}
