@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Shresht V G — Software Engineering Portfolio
 
-# Run and deploy your AI Studio app
+An interactive, responsive, and beautifully styled full-stack portfolio designed for **Shresht V G**, built using **React 18**, **Vite**, **TypeScript**, **Tailwind CSS**, and **Framer Motion** (via `motion/react`).
 
-This contains everything you need to run your app locally.
+This website features a high-contrast dark digital theme, smooth page transitions, interactive visual elements, modular architectures, and dynamic contact integration.
 
-View your app in AI Studio: https://ai.studio/apps/30271467-b960-453a-9d7e-e602f5930e16
+https://shreshtvgportfolio.vercel.app/
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🚀 Key Features
 
+- **Cosmic Dark Digital Theme**: Highly polished, modern dark theme designed with generous negative space, sleek borders, and custom color accents.
+- **Dynamic Greeting**: Rotating developer roles, a persistent **Connectivity** panel with instant socials access, and copyable email utilities.
+- **Interactive Projects Grid**: Displays featured projects (including *Hospital FrontDesk System*, *Convo Chat Platform*, *School Management System*, and *RAG-based PDF QA*) with detail modals and live hyperlinks.
+- **Interactive Experience & Journey Timeline**: Showcases internships (Manhattan Associates, CCBD Center PESU, WeCreateProblems) with intuitive expand/collapse cards.
+- **Refined Contact Flow & Integration**: A validation-backed contact form that packages message parameters securely and redirects users to preloaded mail drafts with a single click, overcoming typical in-app email dispatch issues.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🛠️ Technology Stack
+
+- **Framework**: [React 18](https://react.dev/) + [Vite](https://vite.dev/) (Fast development cycle, zero-configuration build engine)
+- **Language**: [TypeScript](https://www.typescript.org/) (Strict type-safety, interface-based data layer)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (Utility-first, responsive, lightweight layout classes)
+- **Animations**: [Framer Motion / Motion](https://motion.dev/) (Fluid micro-interactions, spring layouts, stagger lists)
+- **Icons**: [Lucide React](https://lucide.dev/) (Sleek, minimalist vector designs)
+
+---
+
+## 📄 License
+This portfolio project is open-source and available under the MIT License. Feel free to use and distribute!
