@@ -120,6 +120,7 @@ export default function Contact() {
       value: "shreshtvg@gmail.com",
       link: personal.socials.email,
       icon: <Mail className="text-[#FF6B4A]" size={20} />,
+      face: "shreshtvg@gmail.com",
       type: "email"
     },
     {
@@ -127,6 +128,7 @@ export default function Contact() {
       value: "linkedin.com/in/shresht-v-g-506465241",
       link: personal.socials.linkedin,
       icon: <Linkedin className="text-[#FF8C69]" size={20} />,
+      face: "Linkedin",
       type: "linkedin"
     },
     {
@@ -134,6 +136,7 @@ export default function Contact() {
       value: "github.com/shreshtvg",
       link: personal.socials.github,
       icon: <Github className="text-[#FFA07A]" size={20} />,
+      face: "GitHub",
       type: "github"
     }
   ];
@@ -144,9 +147,6 @@ export default function Contact() {
         
         {/* Section Heading */}
         <div className="flex flex-col items-start mb-16 text-left">
-          <div className="flex items-center gap-2 mb-2 font-mono text-xs text-[#FF6B4A] tracking-widest uppercase">
-            <span>[07] BRIDGE_INTERFACES</span>
-          </div>
           <h2 className="font-heading text-4xl md:text-5xl font-extrabold text-white tracking-tight">
             Get In Touch
           </h2>
@@ -161,7 +161,7 @@ export default function Contact() {
               Let's create something scalability-first.
             </h3>
             <p className="text-sm md:text-base text-[#94A3B8] leading-relaxed mb-6">
-              I am actively looking for internship, placement, and entry-level Software Engineering positions in top technology teams, backend infrastructures, and robust fullstack projects. Drop a query or direct note!
+              I am actively looking for Full time Opportunities in top technology teams, backend infrastructures, and robust fullstack projects. Drop a query or direct note!
             </p>
 
             {/* Structured Contact Anchors */}
@@ -181,10 +181,7 @@ export default function Contact() {
                           {method.icon}
                         </div>
                         <div className="flex flex-col text-left">
-                          <span className="font-mono text-[9px] text-[#94A3B8]/60 uppercase tracking-wider">
-                            {copied ? "Copied to Clipboard!" : method.label}
-                          </span>
-                          <span className="text-sm font-medium text-white group-hover:text-[#FF6B4A] transition-colors">{method.value}</span>
+                          <span className="text-sm font-medium text-white group-hover:text-[#FF6B4A] transition-colors">{method.face}</span>
                         </div>
                       </div>
                       <span className="text-xs font-mono text-[#FF6B4A]/50 group-hover:text-[#FF6B4A] transition-colors font-bold select-none">&lambda;</span>
@@ -206,8 +203,7 @@ export default function Contact() {
                         {method.icon}
                       </div>
                       <div className="flex flex-col text-left">
-                        <span className="font-mono text-[9px] text-[#94A3B8]/60 uppercase tracking-wider">{method.label}</span>
-                        <span className="text-sm font-medium text-white group-hover:text-[#FF6B4A] transition-colors">{method.value}</span>
+                        <span className="text-sm font-medium text-white group-hover:text-[#FF6B4A] transition-colors">{method.face}</span>
                       </div>
                     </div>
                     <span className="text-xs font-mono text-[#FF6B4A]/50 group-hover:text-[#FF6B4A] transition-colors font-bold group-hover:translate-x-0.5 transition-transform">&lambda;</span>
@@ -253,7 +249,7 @@ export default function Contact() {
                             name="name"
                             value={form.name}
                             onChange={handleInputChange}
-                            placeholder="John Doe"
+                            placeholder="Elon Musk"
                             className={`w-full px-4 py-3 bg-[#0B1220] border rounded-xl text-sm text-white placeholder-gray-600 focus:outline-none focus:border-[#FF6B4A]/50 focus:ring-1 focus:ring-[#FF6B4A]/10 transition-all ${
                               errors.name ? "border-red-500/40" : "border-white/5"
                             }`}
@@ -276,7 +272,7 @@ export default function Contact() {
                             name="email"
                             value={form.email}
                             onChange={handleInputChange}
-                            placeholder="johndoe@gmail.com"
+                            placeholder="elonmusk@gmail.com"
                             className={`w-full px-4 py-3 bg-[#0B1220] border rounded-xl text-sm text-white placeholder-gray-600 focus:outline-none focus:border-[#FF6B4A]/50 focus:ring-1 focus:ring-[#FF6B4A]/10 transition-all ${
                               errors.email ? "border-red-500/40" : "border-white/5"
                             }`}
@@ -301,7 +297,7 @@ export default function Contact() {
                           name="subject"
                           value={form.subject}
                           onChange={handleInputChange}
-                          placeholder="Re: Distributed Systems Intern opportunities"
+                          placeholder="We have an opportunity for you at SpaceX"
                           className={`w-full px-4 py-3 bg-[#0B1220] border rounded-xl text-sm text-white placeholder-gray-600 focus:outline-none focus:border-[#FF6B4A]/50 focus:ring-1 focus:ring-[#FF6B4A]/10 transition-all ${
                             errors.subject ? "border-red-500/40" : "border-white/5"
                           }`}
@@ -324,7 +320,7 @@ export default function Contact() {
                           name="message"
                           value={form.message}
                           onChange={handleInputChange}
-                          placeholder="Write your note, job specs, or core parameters here..."
+                          placeholder="Feel free to add details..."
                           className={`w-full px-4 py-3 bg-[#0B1220] border rounded-xl text-sm text-white placeholder-gray-600 focus:outline-none focus:border-[#FF6B4A]/50 focus:ring-1 focus:ring-[#FF6B4A]/10 transition-all resize-none ${
                             errors.message ? "border-red-500/40" : "border-white/5"
                           }`}

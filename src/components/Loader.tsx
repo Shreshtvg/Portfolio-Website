@@ -49,11 +49,11 @@ export default function Loader({ onComplete }: LoaderProps) {
 
         <motion.p
           initial={{ opacity: 0 }}
-          animate={{ opacity: 0.6 }}
+          animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.5 }}
-          className="mt-2 font-mono text-xs tracking-widest text-[#94A3B8]"
+          className="mt-2 font-mono text-xs tracking-widest text-text-white"
         >
-          COMPILING PORTFOLIO...
+          HOPE YOU HAD YOUR COFFEE☕
         </motion.p>
 
         {/* Dynamic Loading Progress Bar */}

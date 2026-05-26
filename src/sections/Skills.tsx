@@ -25,9 +25,6 @@ export default function Skills() {
         
         {/* Section Heading */}
         <div className="flex flex-col items-start mb-16 text-left">
-          <div className="flex items-center gap-2 mb-2 font-mono text-xs text-[#FF6B4A] tracking-widest uppercase">
-            <span>[02] TECHNICAL_INVENTORY</span>
-          </div>
           <h2 className="font-heading text-4xl md:text-5xl font-extrabold text-white tracking-tight">
             Skills &amp; Technologies
           </h2>
@@ -56,9 +53,6 @@ export default function Skills() {
                       {category.title}
                     </h3>
                   </div>
-                  <span className="font-mono text-[10px] text-[#94A3B8]/60 uppercase tracking-widest font-semibold">
-                    SEC_IWT
-                  </span>
                 </div>
 
                 {/* Tech Badges Grid */}
@@ -73,16 +67,6 @@ export default function Skills() {
                     </div>
                   ))}
                 </div>
-              </div>
-
-              {/* Minimal decorative design line at footer of card */}
-              <div className="mt-8 pt-4 border-t border-white/5 flex items-center justify-between">
-                <span className="font-mono text-[9px] text-[#94A3B8]/40 tracking-wider">
-                  STABLE_COMPILATION
-                </span>
-                <span className="font-mono text-[10px] text-[#FF6B4A]/70 font-semibold group-hover:translate-x-1 transition-transform">
-                  &middot;&middot;&gt;
-                </span>
               </div>
             </motion.div>
           ))}

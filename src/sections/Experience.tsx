@@ -11,9 +11,6 @@ export default function Experience() {
         
         {/* Section Heading */}
         <div className="flex flex-col items-start mb-16 text-left">
-          <div className="flex items-center gap-2 mb-2 font-mono text-xs text-[#FF6B4A] tracking-widest uppercase">
-            <span>[04] STRUCTURAL_TIMELINE</span>
-          </div>
           <h2 className="font-heading text-4xl md:text-5xl font-extrabold text-white tracking-tight">
             Experience & Internships
           </h2>

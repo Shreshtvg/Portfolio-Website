@@ -35,7 +35,7 @@ export const portfolioData = {
   personal: {
     name: "SHRESHT VG",
     tagline: "Software Engineer",
-    subTagline: "Computer Science student passionate about backend engineering, distributed systems, scalable web applications, cloud technologies, and modern software development.",
+    subTagline: "Computer Science student passionate about Developing Products and Scalable Web applications, while leveraging modern AI software development practices.",
     rotatingTitles: [
       "Software Engineer",
       "Problem Solver"
@@ -50,7 +50,7 @@ export const portfolioData = {
   },
   about: {
     heading: "About Me",
-    bio: "I am a Computer Science student and highly motivated aspiring Software Engineer deeply passionate about building performant, scalable, and secure software systems. My programming journey is driven by an intense curiosity in understanding how complex distributed infrastructures work under the hood. I specialize in designing backend architectures, setting up efficient database schemas, and writing thread-safe Concurrent code in Go and Node.js.",
+    bio: "I am a Computer Science student and Software Engineer passionate about building performant, scalable, and secure software systems. A journey driven by intense curiosity in understanding how complex distributed infrastructures work under the hood.",
     keyInterests: [
       "Backend Engineering",
       "System Design",
@@ -106,7 +106,7 @@ export const portfolioData = {
         "Engineered secure authentication and authorization using JWT, OAuth2 flows, and bcrypt password hashing, protecting sensitive medical administration operations and user data.",
         "Built and consumed 15+ RESTful API endpoints for appointment lifecycle management, doctor scheduling, queue operations, and account management, improving operational efficiency through automated workflows and centralized data management."
       ],
-      stack: ["Next.js", "FastAPI", "SQLAlchemy", "SQLite", "JWT"],
+      stack: ["Next.js", "FastAPI", "SQLAlchemy", "SQLite", "JWT", "OAuth2"],
       image: "/images/hospital_frontdesk_1779801230297.png",
       github: "https://github.com/Shreshtvg/Hospital-FrontDesk-System",
       live: "https://hospital-front-desk-system.vercel.app/"
@@ -120,7 +120,7 @@ export const portfolioData = {
         "Comprehensive Social Ecosystem: Implements a sophisticated Discord-style organizational structure featuring hierarchical Servers and Channels, a complete Friendship lifecycle (optimized search, requests, and mutual confirmation), and persistent Direct Messaging.",
         "Enterprise-Grade Security & UX: Features robust JWT authentication with 1-hour session expirations, automatic inactivity timeouts, and rich messaging capabilities including WhatsApp-style replies, multipart image uploads, and secure multi-select bulk actions."
       ],
-      stack: ["Reactjs", "Go(Fiber)", "PostgreSql", "Redis", "WebSockets"],
+      stack: ["Reactjs", "Go(Fiber)", "PostgreSql", "Redis", "WebSockets", "JWT", "Docker"],
       image: "/images/project_convo_discord_1779797861085.png",
       github: "https://github.com/Shreshtvg/TheConvoChat",
       live: "https://github.com/Shreshtvg/TheConvoChat"
@@ -133,7 +133,7 @@ export const portfolioData = {
         "Built a scalable full-stack School Management System using Spring Boot and Angular with JWT-based authentication and role-based authorization.",
         "Engineered RESTful APIs and a responsive frontend to manage student records, attendance, and courses, following clean architecture and optimized database interactions."
       ],
-      stack: ["Java", "Spring Boot", "Angular"],
+      stack: ["Java", "Spring Boot", "Angular", "JWT", "MySQL"],
       image: "/images/project_school_white_1779797880437.png",
       github: "https://github.com/Shreshtvg/SchoolManagementSystem",
       live: "https://github.com/Shreshtvg/SchoolManagementSystem"

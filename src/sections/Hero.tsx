@@ -115,7 +115,7 @@ export default function Hero() {
               referrerPolicy="no-referrer"
               className="px-6 py-3 rounded-xl border border-white/15 bg-[#111827]/60 hover:border-[#FF6B4A]/30 text-white font-heading font-semibold text-sm tracking-wide hover:bg-[#FF6B4A]/5 hover:-translate-y-1 transition-all duration-300 flex items-center gap-2"
             >
-              <span>Download Resume</span>
+              <span>View Resume</span>
               <ExternalLink size={14} className="text-[#94A3B8]" />
             </a>
           </motion.div>
@@ -217,7 +217,7 @@ export default function Hero() {
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
             >
               <div className="w-2 h-2 rounded-full bg-[#FF6B4A]" />
-              <span className="font-mono text-[9px] text-[#94A3B8] tracking-widest uppercase font-semibold">GO_RUN_ACTIVE</span>
+              <span className="font-mono text-[9px] text-[#94A3B8] tracking-widest uppercase font-semibold">LIFE_STATUS_OK</span>
             </motion.div>
 
             <motion.div
@@ -226,7 +226,7 @@ export default function Hero() {
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 1 }}
             >
               <div className="w-2 h-2 rounded-full bg-[#FF8C69]" />
-              <span className="font-mono text-[9px] text-[#94A3B8] tracking-widest uppercase font-semibold">CONCURRENCY_OK</span>
+              <span className="font-mono text-[9px] text-[#94A3B8] tracking-widest uppercase font-semibold">PRODUCTION_READY</span>
             </motion.div>
           </motion.div>
         </div>

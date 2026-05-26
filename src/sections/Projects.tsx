@@ -12,9 +12,6 @@ export default function Projects() {
         {/* Section Heading */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
           <div className="flex flex-col items-start text-left">
-            <div className="flex items-center gap-2 mb-2 font-mono text-xs text-[#FF6B4A] tracking-widest uppercase">
-              <span>[03] DEVELOPMENT_LOGS</span>
-            </div>
             <h2 className="font-heading text-4xl md:text-5xl font-extrabold text-white tracking-tight">
               Featured Projects
             </h2>
@@ -44,12 +41,6 @@ export default function Projects() {
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#111827] via-transparent to-transparent opacity-80" />
-                  
-                  {/* Floating Micro Tag */}
-                  <div className="absolute top-4 left-4 px-3 py-1.5 rounded-xl border border-white/10 bg-[#111827]/90 text-white font-mono text-[9px] tracking-wider uppercase flex items-center gap-1.5 shadow-xl backdrop-blur-md">
-                    <Star size={10} className="text-[#FF6B4A] fill-[#FF6B4A]" />
-                    <span>PRODUCTION_SPEC</span>
-                  </div>
                 </div>
 
                 {/* Card Content Description */}

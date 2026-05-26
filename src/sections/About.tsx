@@ -10,9 +10,6 @@ export default function About() {
         
         {/* Section Heading */}
         <div className="flex flex-col items-start mb-16 text-left">
-          <div className="flex items-center gap-2 mb-2 font-mono text-xs text-[#FF6B4A] tracking-widest uppercase">
-            <span>[01] PROFILE_OVERVIEW</span>
-          </div>
           <h2 className="font-heading text-4xl md:text-5xl font-extrabold text-white tracking-tight">
             {about.heading}
           </h2>
@@ -26,7 +23,7 @@ export default function About() {
             <p className="text-[#94A3B8] text-base md:text-lg leading-relaxed mb-6">
               {about.bio}
             </p>
-            <p className="text-[#94A3B8] text-base leading-relaxed mb-8">
+            <p className="text-[#94A3B8] text-base md:text-lg leading-relaxed mb-6">
               My engineering core values are simple: build clean, write reliable tests, optimize database queries, and choose algorithms that remain highly efficient under heavy concurrent loads.
             </p>
 
@@ -45,7 +42,7 @@ export default function About() {
 
           <div className="lg:col-span-5 relative">
             {/* Embedded Interactive Code Mockup */}
-            <div className="w-full bg-[#111827] border border-white/5 rounded-2xl overflow-hidden shadow-2xl">
+            <div className="w-full bg-[#111827] border border-white/5 rounded-2xl overflow-hidden shadow-2xl -mt-25">
               <div className="bg-[#0B1220] px-4 py-3 border-b border-white/5 flex items-center justify-between">
                 <div className="flex items-center gap-1.5">
                   <span className="w-3 h-3 rounded-full bg-red-500/80" />
