@@ -40,7 +40,7 @@ export const portfolioData = {
       "Software Engineer",
       "Problem Solver"
     ],
-    avatar: "/images/shresht_avatar_1779794430571.jpg",
+    avatar: "/images/shresht_avatar_1779794430571.jpeg",
     socials: {
       github: "https://github.com/shreshtvg",
       linkedin: "https://www.linkedin.com/in/shresht-v-g-506465241/",
